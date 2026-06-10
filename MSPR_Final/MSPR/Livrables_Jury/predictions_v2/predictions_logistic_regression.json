@@ -1,0 +1,3033 @@
+{
+    "summary": {
+        "region_name": "Nouvelle-Aquitaine",
+        "predicted_winner": "MACRON",
+        "real_winner": "MACRON",
+        "model_name": "Logistic Regression",
+        "model_accuracy": 76.8,
+        "economic_state": "stable",
+        "political_side": "Centre",
+        "total_records": "858024"
+    },
+    "political_real": [
+        {
+            "party": "MACRON",
+            "count": 11,
+            "color": "#176Bc6"
+        },
+        {
+            "party": "LE PEN",
+            "count": 1,
+            "color": "#000000"
+        }
+    ],
+    "political_predicted": [
+        {
+            "party": "MACRON",
+            "count": 11,
+            "color": "#176Bc6"
+        },
+        {
+            "party": "LE PEN",
+            "count": 1,
+            "color": "#000000"
+        },
+        {
+            "party": "AUTRE",
+            "count": 0,
+            "color": "#666666"
+        }
+    ],
+    "levels": {
+        "region": [
+            {
+                "entity": "NOUVELLE AQUITAINE",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.36370144251535,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 96.81522441823944,
+                    "Opposition": 3.184775581760572
+                },
+                "conf": "94%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 96.81522441823944,
+                "proba_lepen": 0.002411629649614551
+            }
+        ],
+        "departement": [
+            {
+                "entity": "CHARENTE",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.315308302349806,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 95.20362360893985,
+                    "Opposition": 4.796376391060148
+                },
+                "conf": "93%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 95.20362360893985,
+                "proba_lepen": 0.005639884315835017
+            },
+            {
+                "entity": "CHARENTE MARITIME",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.394688748343183,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 84.4731712939693,
+                    "Opposition": 15.526828706030694
+                },
+                "conf": "84%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 84.4731712939693,
+                "proba_lepen": 0.06139897961381864
+            },
+            {
+                "entity": "CORREZE",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 7.314752244211262,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.5754918159211,
+                    "Opposition": 0.4245081840789107
+                },
+                "conf": "73%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.5754918159211,
+                "proba_lepen": 1.736235274675264e-05
+            },
+            {
+                "entity": "CREUSE",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.641600820136518,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 83.37533747280449,
+                    "Opposition": 16.62466252719551
+                },
+                "conf": "76%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 83.37533747280449,
+                "proba_lepen": 1.8759187477312035e-09
+            },
+            {
+                "entity": "DEUX SEVRES",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.4598374272926575,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 97.48538685779693,
+                    "Opposition": 2.514613142203053
+                },
+                "conf": "65%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 97.48538685779693,
+                "proba_lepen": 2.714635040068918e-07
+            },
+            {
+                "entity": "DORDOGNE",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.400628650619424,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 97.57640400519148,
+                    "Opposition": 2.4235959948085117
+                },
+                "conf": "64%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 97.57640400519148,
+                "proba_lepen": 2.8970790138592317e-07
+            },
+            {
+                "entity": "GIRONDE",
+                "parent": null,
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 9.353186117848427,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 0.008177765408441536,
+                    "Opposition": 99.99182223459155
+                },
+                "conf": "94%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 0.008177765408441536,
+                "proba_lepen": 93.53186117848428
+            },
+            {
+                "entity": "HAUTE VIENNE",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.079211335222805,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.81503756234162,
+                    "Opposition": 1.1849624376583914
+                },
+                "conf": "91%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.81503756234162,
+                "proba_lepen": 0.000345402255720491
+            },
+            {
+                "entity": "LANDES",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.678327530721363,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.26740764555268,
+                    "Opposition": 0.7325923544473203
+                },
+                "conf": "87%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.26740764555268,
+                "proba_lepen": 0.00013243183201144172
+            },
+            {
+                "entity": "LOT ET GARONNE",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "LE PEN",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.361721207914917,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 96.5726602459654,
+                    "Opposition": 3.427339754034614
+                },
+                "conf": "94%",
+                "pred_cand": "MACRON",
+                "real_cand": "LE PEN",
+                "proba_macron": 96.5726602459654,
+                "proba_lepen": 0.0027495452278308652
+            },
+            {
+                "entity": "PYRENEES ATLANTIQUES",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 7.799085726617847,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.55961219373243,
+                    "Opposition": 0.44038780626757074
+                },
+                "conf": "78%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.55961219373243,
+                "proba_lepen": 3.11221234126509e-05
+            },
+            {
+                "entity": "VIENNE",
+                "parent": null,
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.16446684050867,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.56859953276704,
+                    "Opposition": 1.4314004672329506
+                },
+                "conf": "92%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.56859953276704,
+                "proba_lepen": 0.0004968498433957766
+            }
+        ],
+        "canton": [
+            {
+                "entity": "LA COURONNE",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.9769442193675975,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.57426241263533,
+                    "Opposition": 0.42573758736465517
+                },
+                "conf": "70%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.57426241263533,
+                "proba_lepen": 1.3437554784346228e-05
+            },
+            {
+                "entity": "AIGRE",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.253258565436326,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.40770077258517,
+                    "Opposition": 1.592299227414845
+                },
+                "conf": "93%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.40770077258517,
+                "proba_lepen": 0.0006627272204375838
+            },
+            {
+                "entity": "ANGOULEME EST",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.870100084178844,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 89.63628126950695,
+                    "Opposition": 10.363718730493035
+                },
+                "conf": "89%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 89.63628126950695,
+                "proba_lepen": 0.024685117046287036
+            },
+            {
+                "entity": "ANGOULEME 2",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.84589549969995,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 89.3653649654588,
+                    "Opposition": 10.634635034541208
+                },
+                "conf": "88%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 89.3653649654588,
+                "proba_lepen": 0.026058742106761387
+            },
+            {
+                "entity": "ANGOULEME NORD",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.258502339613903,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 95.70769009615124,
+                    "Opposition": 4.29230990384875
+                },
+                "conf": "73%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 95.70769009615124,
+                "proba_lepen": 7.751976759529118e-08
+            },
+            {
+                "entity": "ANGOULEME 3",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.241290107575269,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 95.77025164477465,
+                    "Opposition": 4.229748355225348
+                },
+                "conf": "72%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 95.77025164477465,
+                "proba_lepen": 8.024100187369168e-08
+            },
+            {
+                "entity": "BAIGNES SAINTE RADEGONDE",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.222747350130854,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 93.83522625810437,
+                    "Opposition": 6.164773741895639
+                },
+                "conf": "92%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 93.83522625810437,
+                "proba_lepen": 0.009321051055677725
+            },
+            {
+                "entity": "BOIXE ET MANSLOIS",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.211412148883735,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 93.67781654164959,
+                    "Opposition": 6.322183458350408
+                },
+                "conf": "92%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 93.67781654164959,
+                "proba_lepen": 0.009813845401117577
+            },
+            {
+                "entity": "BLANZAC PORCHERESSE",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.197539973285949,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 62.08857319561262,
+                    "Opposition": 37.911426804387375
+                },
+                "conf": "62%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 62.08857319561262,
+                "proba_lepen": 0.4859102779343723
+            },
+            {
+                "entity": "ANGOULEME 1",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.25621109538431,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.3955553424986,
+                    "Opposition": 1.6044446575014002
+                },
+                "conf": "93%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.3955553424986,
+                "proba_lepen": 0.0006728391246091696
+            },
+            {
+                "entity": "CHARENTE CHAMPAGNE",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.206080732033763,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 62.17456909568677,
+                    "Opposition": 37.82543090431324
+                },
+                "conf": "62%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 62.17456909568677,
+                "proba_lepen": 0.48286588557655463
+            },
+            {
+                "entity": "BROSSAC",
+                "parent": "CHARENTE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.369617405427856,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 97.32487657818216,
+                    "Opposition": 2.6751234218178346
+                },
+                "conf": "94%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 97.32487657818216,
+                "proba_lepen": 0.0018191485984172717
+            },
+            {
+                "entity": "JONZAC",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.668900557257597,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 66.84355804079388,
+                    "Opposition": 33.15644195920611
+                },
+                "conf": "67%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 66.84355804079388,
+                "proba_lepen": 0.3184855539960624
+            },
+            {
+                "entity": "LA JARRIE",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.186325322909957,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 82.29561693103321,
+                    "Opposition": 17.70438306896678
+                },
+                "conf": "82%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 82.29561693103321,
+                "proba_lepen": 0.07948984938798273
+            },
+            {
+                "entity": "PONS",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.36756119383039,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 96.95309018601705,
+                    "Opposition": 3.0469098139829347
+                },
+                "conf": "94%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 96.95309018601705,
+                "proba_lepen": 0.002188874207015504
+            },
+            {
+                "entity": "MATHA",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 6.348136659101943,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 34.373142149932875,
+                    "Opposition": 65.62685785006714
+                },
+                "conf": "63%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 34.373142149932875,
+                "proba_lepen": 2.14549097099281
+            },
+            {
+                "entity": "MARANS",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 5.404936509384612,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.23908481111397,
+                    "Opposition": 0.760915188886043
+                },
+                "conf": "54%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.23908481111397,
+                "proba_lepen": 2.43806119445198e-06
+            },
+            {
+                "entity": "LA ROCHELLE 2",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.921298219620057,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 69.38996199263698,
+                    "Opposition": 30.610038007363006
+                },
+                "conf": "69%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 69.38996199263698,
+                "proba_lepen": 0.30356378061336153
+            },
+            {
+                "entity": "LA ROCHELLE 3",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.005092620752405,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 91.1492441397917,
+                    "Opposition": 8.850755860208297
+                },
+                "conf": "90%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 91.1492441397917,
+                "proba_lepen": 0.01741947285219043
+            },
+            {
+                "entity": "SAINT JEAN D'ANGELY",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 5.997612108778688,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 37.98403367881395,
+                    "Opposition": 62.01596632118604
+                },
+                "conf": "60%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 37.98403367881395,
+                "proba_lepen": 2.0398448174150836
+            },
+            {
+                "entity": "SAINT PORCHAIRE",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.599773974624593,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 81.25791503823471,
+                    "Opposition": 18.74208496176531
+                },
+                "conf": "76%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 81.25791503823471,
+                "proba_lepen": 9.208699931888747e-10
+            },
+            {
+                "entity": "TONNAY CHARENTE",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.17699161404189,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 93.13777032871093,
+                    "Opposition": 6.862229671289087
+                },
+                "conf": "92%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 93.13777032871093,
+                "proba_lepen": 0.012286427390002536
+            },
+            {
+                "entity": "SURGERES",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 5.773752615124364,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 40.516739606465926,
+                    "Opposition": 59.483260393534074
+                },
+                "conf": "58%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 40.516739606465926,
+                "proba_lepen": 1.7457337199423186
+            },
+            {
+                "entity": "SAUJON",
+                "parent": "CHARENTE MARITIME",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.726302557981173,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.22493817949083,
+                    "Opposition": 0.7750618205091568
+                },
+                "conf": "87%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.22493817949083,
+                "proba_lepen": 0.00015281093520147447
+            },
+            {
+                "entity": "ARGENTAT",
+                "parent": "CORREZE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.931553573322105,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 90.2677563922737,
+                    "Opposition": 9.73224360772631
+                },
+                "conf": "89%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 90.2677563922737,
+                "proba_lepen": 0.024185981545270123
+            },
+            {
+                "entity": "EGLETONS",
+                "parent": "CORREZE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.848693581631858,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.10713523087239,
+                    "Opposition": 0.892864769127593
+                },
+                "conf": "88%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.10713523087239,
+                "proba_lepen": 0.00018285103174260934
+            },
+            {
+                "entity": "MALEMORT SUR CORREZE",
+                "parent": "CORREZE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.711417021601119,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 96.80859062816526,
+                    "Opposition": 3.1914093718347183
+                },
+                "conf": "67%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 96.80859062816526,
+                "proba_lepen": 1.8113102789001262e-07
+            },
+            {
+                "entity": "UZERCHE",
+                "parent": "CORREZE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 5.784098846345691,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.34244578868517,
+                    "Opposition": 1.657554211314839
+                },
+                "conf": "58%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.34244578868517,
+                "proba_lepen": 6.43012265550177e-07
+            },
+            {
+                "entity": "AYEN",
+                "parent": "CORREZE",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 7.539494100647991,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 18.204097905322474,
+                    "Opposition": 81.79590209467752
+                },
+                "conf": "75%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 18.204097905322474,
+                "proba_lepen": 6.400961059227574
+            },
+            {
+                "entity": "BEAULIEU SUR DORDOGNE",
+                "parent": "CORREZE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.609349605050028,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.36123674395122,
+                    "Opposition": 0.6387632560487695
+                },
+                "conf": "86%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.36123674395122,
+                "proba_lepen": 9.542818948928878e-05
+            },
+            {
+                "entity": "ALLASSAC",
+                "parent": "CORREZE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 7.081802042905122,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.56759323273468,
+                    "Opposition": 0.4324067672653469
+                },
+                "conf": "71%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.56759323273468,
+                "proba_lepen": 1.4998871712742667e-05
+            },
+            {
+                "entity": "BORT LES ORGUES",
+                "parent": "CORREZE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.204155127442302,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 64.24234517178077,
+                    "Opposition": 35.757654828219245
+                },
+                "conf": "62%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 64.24234517178077,
+                "proba_lepen": 9.477627089604947e-11
+            },
+            {
+                "entity": "BRIVE LA GAILLARDE 3",
+                "parent": "CORREZE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.236586082822128,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 64.61172311738062,
+                    "Opposition": 35.388276882619394
+                },
+                "conf": "62%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 64.61172311738062,
+                "proba_lepen": 9.973971151046337e-11
+            },
+            {
+                "entity": "BEYNAT",
+                "parent": "CORREZE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.993031513503567,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.98086657361615,
+                    "Opposition": 1.0191334263838467
+                },
+                "conf": "90%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.98086657361615,
+                "proba_lepen": 0.00026242166050397566
+            },
+            {
+                "entity": "BRIVE LA GAILLARDE 1",
+                "parent": "CORREZE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.604524978653107,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.36387138330245,
+                    "Opposition": 0.6361286166975398
+                },
+                "conf": "86%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.36387138330245,
+                "proba_lepen": 9.460799633450692e-05
+            },
+            {
+                "entity": "BRIVE LA GAILLARDE 4",
+                "parent": "CORREZE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 5.9650445983472675,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 59.753041294423895,
+                    "Opposition": 40.24695870557611
+                },
+                "conf": "60%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 59.753041294423895,
+                "proba_lepen": 0.6068882725514574
+            },
+            {
+                "entity": "AHUN",
+                "parent": "CREUSE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.790074116748199,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 71.02002548154758,
+                    "Opposition": 28.97997451845243
+                },
+                "conf": "68%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 71.02002548154758,
+                "proba_lepen": 2.138414096175415e-10
+            },
+            {
+                "entity": "AUBUSSON",
+                "parent": "CREUSE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.277875634890816,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.42541828552204,
+                    "Opposition": 0.5745817144779644
+                },
+                "conf": "63%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.42541828552204,
+                "proba_lepen": 5.867348824979087e-06
+            },
+            {
+                "entity": "AUZANCES",
+                "parent": "CREUSE",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 9.97310186388907,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 0.2689813611085397,
+                    "Opposition": 99.73101863889146
+                },
+                "conf": "100%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 0.2689813611085397,
+                "proba_lepen": 1.3111996271128853e-21
+            },
+            {
+                "entity": "BONNAT",
+                "parent": "CREUSE",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 9.33185097172972,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 6.681490270009566,
+                    "Opposition": 93.31850972999044
+                },
+                "conf": "93%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 6.681490270009566,
+                "proba_lepen": 5.242520132258404e-16
+            },
+            {
+                "entity": "BOUSSAC",
+                "parent": "CREUSE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 5.049237626312068,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 51.45275922710621,
+                    "Opposition": 48.547240772893794
+                },
+                "conf": "50%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 51.45275922710621,
+                "proba_lepen": 1.2859951935926179e-11
+            },
+            {
+                "entity": "BOURGANEUF",
+                "parent": "CREUSE",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 8.40366484580401,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 15.963351327808068,
+                    "Opposition": 84.03664867219193
+                },
+                "conf": "84%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 15.963351327808068,
+                "proba_lepen": 2.442584911166797e-14
+            },
+            {
+                "entity": "FELLETIN",
+                "parent": "CREUSE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.917155744524479,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 96.26224523242765,
+                    "Opposition": 3.7377547675723615
+                },
+                "conf": "69%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 96.26224523242765,
+                "proba_lepen": 1.2466336252927195e-07
+            },
+            {
+                "entity": "EVAUX LES BAINS",
+                "parent": "CREUSE",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 6.3038844446378945,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 36.9611502928666,
+                    "Opposition": 63.038849707133416
+                },
+                "conf": "63%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 36.9611502928666,
+                "proba_lepen": 1.6309947120159137e-12
+            },
+            {
+                "entity": "DUN LE PALESTEL",
+                "parent": "CREUSE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.009324257323458,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.51283133886034,
+                    "Opposition": 0.48716866113966073
+                },
+                "conf": "80%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.51283133886034,
+                "proba_lepen": 4.418667435688351e-05
+            },
+            {
+                "entity": "LE GRAND BOURG",
+                "parent": "CREUSE",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 8.047307035707043,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 19.526929016049273,
+                    "Opposition": 80.47307098395072
+                },
+                "conf": "80%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 19.526929016049273,
+                "proba_lepen": 9.859703579626682e-14
+            },
+            {
+                "entity": "LA SOUTERRAINE",
+                "parent": "CREUSE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.528830205495365,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 81.3701194427293,
+                    "Opposition": 18.629880557270692
+                },
+                "conf": "75%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 81.3701194427293,
+                "proba_lepen": 1.1704669748018684e-09
+            },
+            {
+                "entity": "SAINT VAURY",
+                "parent": "CREUSE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.289567476407106,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 94.8810488630052,
+                    "Opposition": 5.118951136994801
+                },
+                "conf": "93%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 94.8810488630052,
+                "proba_lepen": 0.006465723813902162
+            },
+            {
+                "entity": "FRONTENAY ROHAN ROHAN",
+                "parent": "DEUX SEVRES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.847384127967437,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 96.79458950568151,
+                    "Opposition": 3.2054104943184796
+                },
+                "conf": "68%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 96.79458950568151,
+                "proba_lepen": 1.4484067947453615e-07
+            },
+            {
+                "entity": "MELLE",
+                "parent": "DEUX SEVRES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 7.8857751065140285,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.55498862814396,
+                    "Opposition": 0.44501137185603495
+                },
+                "conf": "79%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.55498862814396,
+                "proba_lepen": 3.543914199472902e-05
+            },
+            {
+                "entity": "MAULEON",
+                "parent": "DEUX SEVRES",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 7.365119195410998,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 26.348806667773484,
+                    "Opposition": 73.65119333222651
+                },
+                "conf": "74%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 26.348806667773484,
+                "proba_lepen": 3.092002555615091e-13
+            },
+            {
+                "entity": "PARTHENAY",
+                "parent": "DEUX SEVRES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.987925573891008,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 96.27519615231684,
+                    "Opposition": 3.7248038476831695
+                },
+                "conf": "70%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 96.27519615231684,
+                "proba_lepen": 1.2415462414231655e-07
+            },
+            {
+                "entity": "AIRVAULT",
+                "parent": "DEUX SEVRES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.801938849339162,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 68.1966911781501,
+                    "Opposition": 31.803308821849903
+                },
+                "conf": "68%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 68.1966911781501,
+                "proba_lepen": 0.25513237257571003
+            },
+            {
+                "entity": "BEAUVOIR SUR NIORT",
+                "parent": "DEUX SEVRES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.111570593345297,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.64635600763468,
+                    "Opposition": 1.3536439923653236
+                },
+                "conf": "91%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.64635600763468,
+                "proba_lepen": 0.00046203919518848655
+            },
+            {
+                "entity": "CELLES SUR BELLE",
+                "parent": "DEUX SEVRES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.116867030558819,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.63286392544886,
+                    "Opposition": 1.367136074551146
+                },
+                "conf": "91%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.63286392544886,
+                "proba_lepen": 0.0004709710161385793
+            },
+            {
+                "entity": "BRESSUIRE",
+                "parent": "DEUX SEVRES",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 7.230977463646367,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 27.690223840829702,
+                    "Opposition": 72.3097761591703
+                },
+                "conf": "72%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 27.690223840829702,
+                "proba_lepen": 3.264291849521469e-13
+            },
+            {
+                "entity": "AUTIZE EGRAY",
+                "parent": "DEUX SEVRES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.706324267943318,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 67.23055822313545,
+                    "Opposition": 32.769441776864554
+                },
+                "conf": "67%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 67.23055822313545,
+                "proba_lepen": 0.27438926673087
+            },
+            {
+                "entity": "CERIZAY",
+                "parent": "DEUX SEVRES",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 9.491365554544744,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 5.086344448822437,
+                    "Opposition": 94.91365555117756
+                },
+                "conf": "95%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 5.086344448822437,
+                "proba_lepen": 1.9074899815276608e-16
+            },
+            {
+                "entity": "BRIOUX SUR BOUTONNE",
+                "parent": "DEUX SEVRES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.768722451370428,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.2194987684064,
+                    "Opposition": 0.7805012315936133
+                },
+                "conf": "88%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.2194987684064,
+                "proba_lepen": 0.00013855801114429157
+            },
+            {
+                "entity": "CHAMPDENIERS SAINT DENIS",
+                "parent": "DEUX SEVRES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.952759670312746,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.99904662274966,
+                    "Opposition": 1.0009533772503536
+                },
+                "conf": "90%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.99904662274966,
+                "proba_lepen": 0.000234471912716796
+            },
+            {
+                "entity": "BERGERAC 2",
+                "parent": "DORDOGNE",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 8.727273703734026,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 12.727262856440808,
+                    "Opposition": 87.27273714355921
+                },
+                "conf": "87%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 12.727262856440808,
+                "proba_lepen": 9.45245134242119e-15
+            },
+            {
+                "entity": "MONTPON MENESTEROL",
+                "parent": "DORDOGNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.351779888235985,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.40999404734528,
+                    "Opposition": 0.5900059526547079
+                },
+                "conf": "84%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.40999404734528,
+                "proba_lepen": 7.279560493906013e-05
+            },
+            {
+                "entity": "RIBERAC",
+                "parent": "DORDOGNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.486733297606328,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 95.69909917988633,
+                    "Opposition": 4.300900820113662
+                },
+                "conf": "75%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 95.69909917988633,
+                "proba_lepen": 5.7705040871696163e-08
+            },
+            {
+                "entity": "SARLAT LA CANEDA",
+                "parent": "DORDOGNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.484478140512353,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.48031673032904,
+                    "Opposition": 0.5196832696709645
+                },
+                "conf": "65%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.48031673032904,
+                "proba_lepen": 6.8653144142450036e-06
+            },
+            {
+                "entity": "BRANTOME",
+                "parent": "DORDOGNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.491385359359608,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 93.88590132671386,
+                    "Opposition": 6.114098673286117
+                },
+                "conf": "75%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 93.88590132671386,
+                "proba_lepen": 3.5402720277387825e-08
+            },
+            {
+                "entity": "COULOUNIEIX CHAMIERS",
+                "parent": "DORDOGNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.511750693449548,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 93.73753561597329,
+                    "Opposition": 6.262464384026709
+                },
+                "conf": "75%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 93.73753561597329,
+                "proba_lepen": 3.3297910436321953e-08
+            },
+            {
+                "entity": "LE BUGUE",
+                "parent": "DORDOGNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.200027198037034,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.34846292657205,
+                    "Opposition": 1.6515370734279375
+                },
+                "conf": "92%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.34846292657205,
+                "proba_lepen": 0.0005599506413208198
+            },
+            {
+                "entity": "HAUT PERIGORD NOIR",
+                "parent": "DORDOGNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.200742838771617,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.34426561564918,
+                    "Opposition": 1.655734384350808
+                },
+                "conf": "92%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.34426561564918,
+                "proba_lepen": 0.000562380538818001
+            },
+            {
+                "entity": "BUSSIERE BADIL",
+                "parent": "DORDOGNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.5110483080767825,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 81.99036262293508,
+                    "Opposition": 18.009637377064927
+                },
+                "conf": "75%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 81.99036262293508,
+                "proba_lepen": 1.7115308437215871e-09
+            },
+            {
+                "entity": "ISLE LOUE AUVEZERE",
+                "parent": "DORDOGNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.512991117166067,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 82.02578246233587,
+                    "Opposition": 17.974217537664124
+                },
+                "conf": "75%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 82.02578246233587,
+                "proba_lepen": 1.7223465429617535e-09
+            },
+            {
+                "entity": "BERGERAC 1",
+                "parent": "DORDOGNE",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 6.50389840572692,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 34.96101154018712,
+                    "Opposition": 65.03898845981288
+                },
+                "conf": "65%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 34.96101154018712,
+                "proba_lepen": 1.3275996229755788e-12
+            },
+            {
+                "entity": "BEAUMONT DU PERIGORD",
+                "parent": "DORDOGNE",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 6.451968252043119,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 35.48031281073885,
+                    "Opposition": 64.51968718926115
+                },
+                "conf": "65%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 35.48031281073885,
+                "proba_lepen": 1.4381258692861492e-12
+            },
+            {
+                "entity": "BORDEAUX 1",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 9.939415210333841,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 7.387147893855651e-05,
+                    "Opposition": 99.99992612852108
+                },
+                "conf": "99%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 7.387147893855651e-05,
+                "proba_lepen": 99.39415210333841
+            },
+            {
+                "entity": "BORDEAUX 2",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 9.26718297374627,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 0.010446407425369076,
+                    "Opposition": 99.98955359257464
+                },
+                "conf": "93%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 0.010446407425369076,
+                "proba_lepen": 92.67182973746269
+            },
+            {
+                "entity": "BORDEAUX 3",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 9.975833381266858,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 9.307516101460306e-06,
+                    "Opposition": 99.99999069248389
+                },
+                "conf": "100%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 9.307516101460306e-06,
+                "proba_lepen": 99.75833381266858
+            },
+            {
+                "entity": "BORDEAUX 5",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 9.374809201442432,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 0.008030784870473285,
+                    "Opposition": 99.99196921512954
+                },
+                "conf": "94%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 0.008030784870473285,
+                "proba_lepen": 93.74809201442432
+            },
+            {
+                "entity": "LE BOUSCAT",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 7.244413523013406,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 0.18455145944897927,
+                    "Opposition": 99.81544854055102
+                },
+                "conf": "72%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 0.18455145944897927,
+                "proba_lepen": 72.44413523013405
+            },
+            {
+                "entity": "BORDEAUX 4",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 9.744186015313103,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 0.0013301756236108581,
+                    "Opposition": 99.99866982437638
+                },
+                "conf": "97%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 0.0013301756236108581,
+                "proba_lepen": 97.44186015313103
+            },
+            {
+                "entity": "TALENCE",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 9.989402911649885,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 1.8665370075081752e-06,
+                    "Opposition": 99.999998133463
+                },
+                "conf": "100%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 1.8665370075081752e-06,
+                "proba_lepen": 99.89402911649886
+            },
+            {
+                "entity": "SAINT MEDARD EN JALLES",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 9.989773045123806,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 1.7339273976497522e-06,
+                    "Opposition": 99.99999826607261
+                },
+                "conf": "100%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 1.7339273976497522e-06,
+                "proba_lepen": 99.89773045123806
+            },
+            {
+                "entity": "MERIGNAC 2",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 9.97797893370943,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 6.7123090324139635e-06,
+                    "Opposition": 99.99999328769096
+                },
+                "conf": "100%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 6.7123090324139635e-06,
+                "proba_lepen": 99.7797893370943
+            },
+            {
+                "entity": "PESSAC 2",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 9.648713881401646,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 0.002149433663028355,
+                    "Opposition": 99.997850566337
+                },
+                "conf": "96%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 0.002149433663028355,
+                "proba_lepen": 96.48713881401646
+            },
+            {
+                "entity": "PESSAC 1",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 9.581350701248683,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 0.0030572902506314057,
+                    "Opposition": 99.99694270974938
+                },
+                "conf": "96%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 0.0030572902506314057,
+                "proba_lepen": 95.81350701248684
+            },
+            {
+                "entity": "MERIGNAC 1",
+                "parent": "GIRONDE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 5.904311336106732,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 0.5735904734278283,
+                    "Opposition": 99.42640952657217
+                },
+                "conf": "59%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 0.5735904734278283,
+                "proba_lepen": 59.04311336106731
+            },
+            {
+                "entity": "AIXE SUR VIENNE",
+                "parent": "HAUTE VIENNE",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 8.718358165961943,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 12.816418247186498,
+                    "Opposition": 87.18358175281351
+                },
+                "conf": "87%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 12.816418247186498,
+                "proba_lepen": 8.058027634628906e-15
+            },
+            {
+                "entity": "AMBAZAC",
+                "parent": "HAUTE VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.221095671787356,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.36138972469818,
+                    "Opposition": 1.6386102753017995
+                },
+                "conf": "92%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.36138972469818,
+                "proba_lepen": 0.0005536472051742308
+            },
+            {
+                "entity": "BELLAC",
+                "parent": "HAUTE VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.049002698080663,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.98744040971832,
+                    "Opposition": 1.0125595902816689
+                },
+                "conf": "90%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.98744040971832,
+                "proba_lepen": 0.0002976014118901513
+            },
+            {
+                "entity": "CHATEAUPONSAC",
+                "parent": "HAUTE VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.15096901343659,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 92.8665625069961,
+                    "Opposition": 7.133437493003914
+                },
+                "conf": "92%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 92.8665625069961,
+                "proba_lepen": 0.011585083800386253
+            },
+            {
+                "entity": "EYMOUTIERS",
+                "parent": "HAUTE VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 7.366397050343803,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 73.89394492832024,
+                    "Opposition": 26.106055071679773
+                },
+                "conf": "74%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 73.89394492832024,
+                "proba_lepen": 0.20278014124342378
+            },
+            {
+                "entity": "SAINT YRIEIX LA PERCHE",
+                "parent": "HAUTE VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.8261816645900275,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.5492566840387,
+                    "Opposition": 0.45074331596132305
+                },
+                "conf": "68%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.5492566840387,
+                "proba_lepen": 9.718517794281008e-06
+            },
+            {
+                "entity": "ROCHECHOUART",
+                "parent": "HAUTE VIENNE",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 7.743501108723507,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 14.06443296554487,
+                    "Opposition": 85.93556703445512
+                },
+                "conf": "77%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 14.06443296554487,
+                "proba_lepen": 8.500555934363394
+            },
+            {
+                "entity": "BESSINES SUR GARTEMPE",
+                "parent": "HAUTE VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.35955960189929,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 97.00986057750576,
+                    "Opposition": 2.9901394224942295
+                },
+                "conf": "94%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 97.00986057750576,
+                "proba_lepen": 0.002035678377786819
+            },
+            {
+                "entity": "CHALUS",
+                "parent": "HAUTE VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.0814926958772775,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.3715792569774,
+                    "Opposition": 0.6284207430225894
+                },
+                "conf": "61%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.3715792569774,
+                "proba_lepen": 4.743493510029993e-06
+            },
+            {
+                "entity": "COUZEIX",
+                "parent": "HAUTE VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.34221203682361,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 95.580634158501,
+                    "Opposition": 4.419365841498993
+                },
+                "conf": "93%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 95.580634158501,
+                "proba_lepen": 0.004928404488166857
+            },
+            {
+                "entity": "LE DORAT",
+                "parent": "HAUTE VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 7.240269219942574,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 72.63921387382254,
+                    "Opposition": 27.360786126177462
+                },
+                "conf": "72%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 72.63921387382254,
+                "proba_lepen": 0.16852144053881807
+            },
+            {
+                "entity": "CHATEAUNEUF LA FORET",
+                "parent": "HAUTE VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.344393116903015,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 95.62550322863041,
+                    "Opposition": 4.374496771369595
+                },
+                "conf": "93%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 95.62550322863041,
+                "proba_lepen": 0.004827034217682982
+            },
+            {
+                "entity": "AIRE SUR L'ADOUR",
+                "parent": "LANDES",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 7.683207738695991,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 14.562035574328755,
+                    "Opposition": 85.43796442567125
+                },
+                "conf": "77%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 14.562035574328755,
+                "proba_lepen": 8.605887025748533
+            },
+            {
+                "entity": "ADOUR ARMAGNAC",
+                "parent": "LANDES",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 7.676645942588527,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 14.729239528926039,
+                    "Opposition": 85.27076047107394
+                },
+                "conf": "77%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 14.729239528926039,
+                "proba_lepen": 8.50430103176398
+            },
+            {
+                "entity": "AMOU",
+                "parent": "LANDES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.250732472514683,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 94.40172162670353,
+                    "Opposition": 5.5982783732964645
+                },
+                "conf": "93%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 94.40172162670353,
+                "proba_lepen": 0.006641493266613619
+            },
+            {
+                "entity": "CHALOSSE TURSAN",
+                "parent": "LANDES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.243817553518815,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 94.29443206971867,
+                    "Opposition": 5.705567930281346
+                },
+                "conf": "92%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 94.29443206971867,
+                "proba_lepen": 0.006901746853311997
+            },
+            {
+                "entity": "CASTETS",
+                "parent": "LANDES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.165001097842221,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 96.2927316153033,
+                    "Opposition": 3.7072683846967096
+                },
+                "conf": "72%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 96.2927316153033,
+                "proba_lepen": 1.0562691349727048e-07
+            },
+            {
+                "entity": "COTE D'ARGENT",
+                "parent": "LANDES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.174351281917004,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 96.26590051140926,
+                    "Opposition": 3.734099488590746
+                },
+                "conf": "72%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 96.26590051140926,
+                "proba_lepen": 1.0385660650139913e-07
+            },
+            {
+                "entity": "DAX NORD",
+                "parent": "LANDES",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 6.135979689376706,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 38.64019694000993,
+                    "Opposition": 61.35980305999007
+                },
+                "conf": "61%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 38.64019694000993,
+                "proba_lepen": 2.106588322167001e-12
+            },
+            {
+                "entity": "COTEAU DE CHALOSSE",
+                "parent": "LANDES",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 6.15508711154103,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 38.44912285346093,
+                    "Opposition": 61.550877146539065
+                },
+                "conf": "62%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 38.44912285346093,
+                "proba_lepen": 2.043350268033389e-12
+            },
+            {
+                "entity": "GABARRET",
+                "parent": "LANDES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.078297511971444,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.83607137556672,
+                    "Opposition": 1.1639286244332905
+                },
+                "conf": "91%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.83607137556672,
+                "proba_lepen": 0.0003066621846123456
+            },
+            {
+                "entity": "DAX 1",
+                "parent": "LANDES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.09721949601347,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.79818539109688,
+                    "Opposition": 1.2018146089031176
+                },
+                "conf": "91%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.79818539109688,
+                "proba_lepen": 0.0003266396042442192
+            },
+            {
+                "entity": "GEAUNE",
+                "parent": "LANDES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.147559270642295,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 92.78250004229808,
+                    "Opposition": 7.217499957701924
+                },
+                "conf": "91%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 92.78250004229808,
+                "proba_lepen": 0.01439775775004285
+            },
+            {
+                "entity": "DAX 2",
+                "parent": "LANDES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.149637806174994,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 92.80846208618537,
+                    "Opposition": 7.191537913814631
+                },
+                "conf": "91%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 92.80846208618537,
+                "proba_lepen": 0.014309619179083771
+            },
+            {
+                "entity": "LAVARDAC",
+                "parent": "LOT ET GARONNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.839814952208648,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 89.05823396257753,
+                    "Opposition": 10.941766037422477
+                },
+                "conf": "78%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 89.05823396257753,
+                "proba_lepen": 6.392766382048114e-09
+            },
+            {
+                "entity": "TONNEINS",
+                "parent": "LOT ET GARONNE",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 6.21203684388348,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 37.879626121383346,
+                    "Opposition": 62.120373878616654
+                },
+                "conf": "62%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 37.879626121383346,
+                "proba_lepen": 1.6705223327945235e-12
+            },
+            {
+                "entity": "AGEN 1",
+                "parent": "LOT ET GARONNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.28144805684839,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.43152891051517,
+                    "Opposition": 0.5684710894848363
+                },
+                "conf": "83%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.43152891051517,
+                "proba_lepen": 6.622696692179805e-05
+            },
+            {
+                "entity": "AGEN 2",
+                "parent": "LOT ET GARONNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 7.348721650634753,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 73.73565207137803,
+                    "Opposition": 26.26434792862195
+                },
+                "conf": "73%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 73.73565207137803,
+                "proba_lepen": 0.18458755658085005
+            },
+            {
+                "entity": "ASTAFFORT",
+                "parent": "LOT ET GARONNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 7.59616634147452,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 76.2317737036755,
+                    "Opposition": 23.768226296324503
+                },
+                "conf": "76%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 76.2317737036755,
+                "proba_lepen": 0.1536721504684613
+            },
+            {
+                "entity": "AGEN 3",
+                "parent": "LOT ET GARONNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 7.6191185400480945,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 76.4656971424472,
+                    "Opposition": 23.534302857552795
+                },
+                "conf": "76%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 76.4656971424472,
+                "proba_lepen": 0.15013194132917662
+            },
+            {
+                "entity": "BEAUVILLE",
+                "parent": "LOT ET GARONNE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 8.768124601192788,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 0.029501615563800276,
+                    "Opposition": 99.9704983844362
+                },
+                "conf": "88%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 0.029501615563800276,
+                "proba_lepen": 87.68124601192788
+            },
+            {
+                "entity": "AGEN 4",
+                "parent": "LOT ET GARONNE",
+                "predicted": "LE PEN",
+                "real": "MACRON",
+                "political_side": "Extrême Droite",
+                "economic_state": "crisis",
+                "economic_score": 8.781390992578514,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 0.02882300473884476,
+                    "Opposition": 99.97117699526116
+                },
+                "conf": "88%",
+                "pred_cand": "LE PEN",
+                "real_cand": "MACRON",
+                "proba_macron": 0.02882300473884476,
+                "proba_lepen": 87.81390992578514
+            },
+            {
+                "entity": "BOUGLON",
+                "parent": "LOT ET GARONNE",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 7.748810884177287,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 11.00247518173025,
+                    "Opposition": 88.99752481826974
+                },
+                "conf": "77%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 11.00247518173025,
+                "proba_lepen": 11.509415970113515
+            },
+            {
+                "entity": "L'ALBRET",
+                "parent": "LOT ET GARONNE",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 7.748629295248964,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 11.038569042984873,
+                    "Opposition": 88.96143095701512
+                },
+                "conf": "77%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 11.038569042984873,
+                "proba_lepen": 11.475137998074551
+            },
+            {
+                "entity": "AGEN CENTRE",
+                "parent": "LOT ET GARONNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.240895150131596,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.4456516987093,
+                    "Opposition": 0.5543483012907059
+                },
+                "conf": "82%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.4456516987093,
+                "proba_lepen": 6.218267521361018e-05
+            },
+            {
+                "entity": "CANCON",
+                "parent": "LOT ET GARONNE",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 7.7911046844743295,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 12.701573545216146,
+                    "Opposition": 87.29842645478386
+                },
+                "conf": "78%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 12.701573545216146,
+                "proba_lepen": 9.387379600662854
+            },
+            {
+                "entity": "SAINT JEAN DE LUZ",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.134079833382593,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.53895774422388,
+                    "Opposition": 0.46104225577610997
+                },
+                "conf": "81%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.53895774422388,
+                "proba_lepen": 4.742943579125604e-05
+            },
+            {
+                "entity": "ANGLET",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.291780897477918,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 65.19490135004966,
+                    "Opposition": 34.80509864995033
+                },
+                "conf": "63%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 65.19490135004966,
+                "proba_lepen": 8.743083373494412e-11
+            },
+            {
+                "entity": "ACCOUS",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.359835790038469,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 65.97931618112787,
+                    "Opposition": 34.02068381887213
+                },
+                "conf": "64%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 65.97931618112787,
+                "proba_lepen": 9.775914390313891e-11
+            },
+            {
+                "entity": "ARTIX ET PAYS DE SOUBESTRE",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 4.993253527842004,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 50.83116884607004,
+                    "Opposition": 49.16883115392996
+                },
+                "conf": "50%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 50.83116884607004,
+                "proba_lepen": 1.0131199486930904e-11
+            },
+            {
+                "entity": "ARTHEZ DE BEARN",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 7.932869591531993,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 79.69153888541223,
+                    "Opposition": 20.308461114587782
+                },
+                "conf": "79%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 79.69153888541223,
+                "proba_lepen": 0.11241013315668688
+            },
+            {
+                "entity": "BAIGURA ET MONDARRAIN",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 7.928069797546663,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 79.64213642754238,
+                    "Opposition": 20.35786357245762
+                },
+                "conf": "79%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 79.64213642754238,
+                "proba_lepen": 0.1131341761238963
+            },
+            {
+                "entity": "ARUDY",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.098390138075477,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 81.40196636969479,
+                    "Opposition": 18.59803363030522
+                },
+                "conf": "81%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 81.40196636969479,
+                "proba_lepen": 0.09411713914679393
+            },
+            {
+                "entity": "BAYONNE 1",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.078960339766802,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 81.20102457567934,
+                    "Opposition": 18.79897542432067
+                },
+                "conf": "81%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 81.20102457567934,
+                "proba_lepen": 0.09637443838226517
+            },
+            {
+                "entity": "ARZACQ ARRAZIGUET",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 5.687064015873874,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.17349534330162,
+                    "Opposition": 0.8265046566983729
+                },
+                "conf": "57%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.17349534330162,
+                "proba_lepen": 3.2238410746046787e-06
+            },
+            {
+                "entity": "BAYONNE 2",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 5.7185607575417645,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.18607442139896,
+                    "Opposition": 0.8139255786010458
+                },
+                "conf": "57%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.18607442139896,
+                "proba_lepen": 3.3226535508696752e-06
+            },
+            {
+                "entity": "ARAMITS",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "PÉCRESSE",
+                "real": "MACRON",
+                "political_side": "Droite",
+                "economic_state": "boom",
+                "economic_score": 4.995592177219701,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 50.04406085469032,
+                    "Opposition": 49.95593914530968
+                },
+                "conf": "50%",
+                "pred_cand": "PÉCRESSE",
+                "real_cand": "MACRON",
+                "proba_macron": 50.04406085469032,
+                "proba_lepen": 9.103968068700028e-12
+            },
+            {
+                "entity": "BAYONNE EST",
+                "parent": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.339455585918056,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 97.74193873581183,
+                    "Opposition": 2.2580612641881705
+                },
+                "conf": "93%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 97.74193873581183,
+                "proba_lepen": 0.0012843344150515075
+            },
+            {
+                "entity": "CIVRAY",
+                "parent": "VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 8.970246937436967,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 90.77320340523937,
+                    "Opposition": 9.226796594760613
+                },
+                "conf": "90%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 90.77320340523937,
+                "proba_lepen": 0.017165848541904123
+            },
+            {
+                "entity": "CHAUVIGNY",
+                "parent": "VIENNE",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 7.183013148247154,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 24.469393293741128,
+                    "Opposition": 75.53060670625888
+                },
+                "conf": "72%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 24.469393293741128,
+                "proba_lepen": 3.7004751354127126
+            },
+            {
+                "entity": "LUSIGNAN",
+                "parent": "VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.107165851304094,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 92.33981118969143,
+                    "Opposition": 7.660188810308576
+                },
+                "conf": "91%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 92.33981118969143,
+                "proba_lepen": 0.01383485448935522
+            },
+            {
+                "entity": "LOUDUN",
+                "parent": "VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 6.365686930719479,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 65.60264791488024,
+                    "Opposition": 34.39735208511977
+                },
+                "conf": "64%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 65.60264791488024,
+                "proba_lepen": 6.566883334374781e-11
+            },
+            {
+                "entity": "VIVONNE",
+                "parent": "VIENNE",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 7.232932459157862,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 22.59833849373877,
+                    "Opposition": 77.40166150626122
+                },
+                "conf": "72%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 22.59833849373877,
+                "proba_lepen": 5.072336846668279
+            },
+            {
+                "entity": "POITIERS 2",
+                "parent": "VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.160511539649704,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 92.94231785098435,
+                    "Opposition": 7.057682149015633
+                },
+                "conf": "92%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 92.94231785098435,
+                "proba_lepen": 0.01237134593674402
+            },
+            {
+                "entity": "POITIERS 4",
+                "parent": "VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "growth",
+                "economic_score": 7.389854270572479,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 95.03733507202583,
+                    "Opposition": 4.962664927974172
+                },
+                "conf": "74%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 95.03733507202583,
+                "proba_lepen": 6.227152640959156e-08
+            },
+            {
+                "entity": "POITIERS 5",
+                "parent": "VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 9.256424428470618,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 98.25598261281756,
+                    "Opposition": 1.7440173871824498
+                },
+                "conf": "93%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 98.25598261281756,
+                "proba_lepen": 0.00078900909491199
+            },
+            {
+                "entity": "MONTMORILLON",
+                "parent": "VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 5.445658241400081,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.2949786215411,
+                    "Opposition": 0.7050213784588935
+                },
+                "conf": "54%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.2949786215411,
+                "proba_lepen": 2.7811591753499017e-06
+            },
+            {
+                "entity": "LUSSAC LES CHATEAUX",
+                "parent": "VIENNE",
+                "predicted": "MÉLENCHON",
+                "real": "MACRON",
+                "political_side": "Gauche",
+                "economic_state": "decline",
+                "economic_score": 7.76381926564337,
+                "is_correct": false,
+                "proba": {
+                    "MACRON": 7.499739843137247,
+                    "Opposition": 92.50026015686275
+                },
+                "conf": "78%",
+                "pred_cand": "MÉLENCHON",
+                "real_cand": "MACRON",
+                "proba_macron": 7.499739843137247,
+                "proba_lepen": 14.862067498486779
+            },
+            {
+                "entity": "AVAILLES LIMOUZINE",
+                "parent": "VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.695541866107867,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.52785792063084,
+                    "Opposition": 0.47214207936916536
+                },
+                "conf": "67%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.52785792063084,
+                "proba_lepen": 8.876236435397839e-06
+            },
+            {
+                "entity": "CHASSENEUIL DU POITOU",
+                "parent": "VIENNE",
+                "predicted": "MACRON",
+                "real": "MACRON",
+                "political_side": "Centre",
+                "economic_state": "stable",
+                "economic_score": 6.722215805182016,
+                "is_correct": true,
+                "proba": {
+                    "MACRON": 99.53128270570303,
+                    "Opposition": 0.4687172942969639
+                },
+                "conf": "67%",
+                "pred_cand": "MACRON",
+                "real_cand": "MACRON",
+                "proba_macron": 99.53128270570303,
+                "proba_lepen": 9.130033206044724e-06
+            }
+        ],
+        "commune": []
+    }
+}

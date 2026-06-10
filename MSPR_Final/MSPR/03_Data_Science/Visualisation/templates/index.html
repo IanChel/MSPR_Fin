@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr" class="bg-slate-50 text-slate-800 font-sans antialiased">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GouvData - ML Predictions 2022</title>
+    <!-- Tailwind CSS (for modern UI) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.05);
+        }
+        .progress-bar-fill { transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1); }
+    </style>
+</head>
+<body class="min-h-screen">
+    
+    <!-- Sidebar / Topbar -->
+    <nav class="bg-gray-900 border-b border-gray-800 px-6 py-4 flex justify-between items-center text-white sticky top-0 z-50">
+        <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded bg-blue-600 flex items-center justify-center font-bold text-lg">AI</div>
+            <span class="font-bold tracking-wide text-xl text-gray-100">GouvData <span class="text-blue-400 font-light text-sm ml-2">ML Analytics</span></span>
+        </div>
+        <div class="flex items-center gap-4 text-sm font-medium">
+            <span class="px-3 py-1 bg-gray-800 rounded-full text-gray-300">Modèle : XGBoost (82.4%)</span>
+            <span class="px-3 py-1 bg-emerald-500 rounded-full text-white animate-pulse">Live Dashboard</span>
+        </div>
+    </nav>
+
+    <main class="max-w-screen-2xl mx-auto px-6 py-10">
+        <!-- Header -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
+            <div>
+                <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight">Nouvelle-Aquitaine</h1>
+                <p class="text-gray-500 mt-2 text-lg">Prédiction des Législatives 2022 par Machine Learning</p>
+            </div>
+            <div class="flex items-center gap-3">
+                <div class="text-right">
+                    <p class="text-xs text-gray-400 uppercase font-bold tracking-wider">Vainqueur Régional</p>
+                    <p class="text-xl font-bold text-blue-700" id="winner-label">Emmanuel Macron 🔵</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- KPI Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
+            <!-- KPI 1 -->
+            <div class="glass-card rounded-2xl p-6 relative overflow-hidden group">
+                <div class="absolute -right-4 -top-4 w-24 h-24 bg-blue-100 rounded-full opacity-50 group-hover:scale-110 transition-transform"></div>
+                <h3 class="text-gray-400 text-sm font-semibold uppercase tracking-wider mb-2 relative z-10">Données Traitées</h3>
+                <p class="text-3xl font-extrabold text-gray-900 relative z-10" id="kpi-records">-</p>
+                <div class="mt-4 w-full bg-gray-100 rounded-full h-1.5"><div class="bg-blue-600 h-1.5 rounded-full" style="width: 100%"></div></div>
+            </div>
+            <!-- KPI 2 -->
+            <div class="glass-card rounded-2xl p-6 relative overflow-hidden group">
+                <div class="absolute -right-4 -top-4 w-24 h-24 bg-purple-100 rounded-full opacity-50 group-hover:scale-110 transition-transform"></div>
+                <h3 class="text-gray-400 text-sm font-semibold uppercase tracking-wider mb-2 relative z-10">Model Accuracy</h3>
+                <div class="flex items-baseline gap-2 relative z-10">
+                    <p class="text-3xl font-extrabold text-gray-900" id="kpi-model-acc">-</p>
+                    <span class="text-sm font-medium text-purple-600 bg-purple-100 px-2 py-0.5 rounded">Objectif: 80%</span>
+                </div>
+                <div class="mt-4 w-full bg-gray-100 rounded-full h-1.5"><div class="bg-purple-600 h-1.5 rounded-full progress-bar-fill" id="pb-model-acc" style="width: 0%"></div></div>
+            </div>
+            <!-- KPI 3 -->
+            <div class="glass-card rounded-2xl p-6 relative overflow-hidden group">
+                <h3 class="text-gray-400 text-sm font-semibold uppercase tracking-wider mb-2 relative z-10">Score Départements</h3>
+                <div class="flex items-baseline gap-2 relative z-10">
+                    <p class="text-3xl font-extrabold text-gray-900" id="kpi-dept-acc">-</p>
+                    <span class="text-sm font-medium text-emerald-600 bg-emerald-100 px-2 py-0.5 rounded">Validation croisée</span>
+                </div>
+                <div class="mt-4 w-full bg-gray-100 rounded-full h-1.5"><div class="bg-emerald-500 h-1.5 rounded-full progress-bar-fill" id="pb-dept-acc" style="width: 0%"></div></div>
+            </div>
+            <!-- KPI 4 -->
+            <div class="glass-card rounded-2xl p-6 relative overflow-hidden group">
+                <h3 class="text-gray-400 text-sm font-semibold uppercase tracking-wider mb-2 relative z-10">Contraintes IA</h3>
+                <div class="space-y-2 mt-3 relative z-10">
+                    <div class="flex justify-between items-center text-sm">
+                        <span class="text-gray-500">Bruit feature (σ)</span>
+                        <span class="font-bold text-gray-700" id="kpi-noise">-</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm">
+                        <span class="text-gray-500">Perturbation labels</span>
+                        <span class="font-bold text-gray-700" id="kpi-flip">-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <!-- Left Column: Validation Table -->
+            <div class="lg:col-span-2 space-y-8">
+                
+                <!-- LEVEL SELECTOR (TABS) -->
+                <div class="flex flex-wrap items-center gap-2 p-1.5 bg-white border border-gray-200 rounded-xl w-full max-w-3xl mx-auto shadow-sm">
+                    <button class="level-tab active relative flex-1 text-sm font-semibold py-2.5 px-4 rounded-lg focus:outline-none transition-all duration-200 text-blue-700 bg-blue-50/80 shadow-sm border border-blue-100" data-level="region" onclick="showSection('table')">
+                        🌍 Région
+                    </button>
+                    <button class="level-tab relative flex-1 text-sm font-semibold py-2.5 px-4 rounded-lg focus:outline-none transition-all duration-200 text-gray-500 hover:text-gray-700 hover:bg-gray-50" data-level="departement" onclick="showSection('table')">
+                        📍 Départements
+                    </button>
+                    <button class="level-tab relative flex-1 text-sm font-semibold py-2.5 px-4 rounded-lg focus:outline-none transition-all duration-200 text-gray-500 hover:text-gray-700 hover:bg-gray-50" data-level="canton" onclick="showSection('table')">
+                        🏙️ Cantons (Top 5)
+                    </button>
+                    <button class="level-tab relative flex-1 text-sm font-semibold py-2.5 px-4 rounded-lg focus:outline-none transition-all duration-200 text-purple-600 hover:text-purple-700 hover:bg-purple-50" data-level="dataviz" onclick="showSection('dataviz')">
+                        📊 Data Visualisation
+                    </button>
+                </div>
+
+                <!-- Data Table Section -->
+                <div id="section-table">
+                    <div class="glass-card rounded-2xl p-8 transition-opacity duration-300 mt-8" id="table-container">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-xl font-bold text-gray-900" id="table-title">Cartographie des Prédictions IA vs Réalité 2022</h2>
+                        <span class="text-xs bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full border border-indigo-100 font-bold shadow-sm" id="table-badge">Niveau : Région</span>
+                    </div>
+                    <div class="overflow-hidden rounded-xl border border-gray-100 shadow-sm">
+                        <table class="w-full text-left border-collapse bg-white">
+                            <thead>
+                                <tr class="bg-gray-50/80 text-gray-500 text-xs uppercase tracking-wider border-b border-gray-100">
+                                    <th class="px-6 py-4 font-semibold" id="th-entity">Entité Géographique</th>
+                                    <th class="px-6 py-4 font-semibold">Prédiction IA</th>
+                                    <th class="px-6 py-4 font-semibold text-center">Confiance</th>
+                                    <th class="px-6 py-4 font-semibold">Vainqueur Réel 2022</th>
+                                    <th class="px-6 py-4 font-semibold text-center">Statut IA</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-sm divide-y divide-gray-50" id="table-body">
+                                <!-- JS Injection -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-500 font-medium" id="table-footer-note">Note: Le modèle a été entraîné avec un taux d'exactitude ciblé ~80%.</p>
+                </div>
+                </div>
+
+                <!-- Data Visualisation Section -->
+                <div id="section-dataviz" style="display: none;" class="mt-8">
+                    <div class="glass-card rounded-2xl p-8">
+                        <h2 class="text-xl font-bold text-gray-900 mb-6 font-display">Analyses du Modèle IA - Nouvelle-Aquitaine</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="h-64">
+                                <h3 class="text-sm font-semibold text-gray-500 mb-4 text-center">Top 5 - Facteurs les plus déterminants de l'IA</h3>
+                                <canvas id="chartLine"></canvas>
+                            </div>
+                            <div class="h-64">
+                                <h3 class="text-sm font-semibold text-gray-500 mb-4 text-center">Score Relatif de Croissance Prédit</h3>
+                                <canvas id="chartBar"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right Column: Charts -->
+            <div class="space-y-8">
+                <div class="glass-card rounded-2xl p-8">
+                    <h2 class="text-lg font-bold text-gray-900 mb-6">Comparaison des Blocs Politiques</h2>
+                    
+                    <!-- Chart 1: Real -->
+                    <div class="mb-8">
+                        <h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase tracking-wider text-center">Réalité Électorale (2022)</h3>
+                        <div class="h-44 w-full relative">
+                            <canvas id="chartReal"></canvas>
+                        </div>
+                    </div>
+
+                    <hr class="border-gray-100 mb-8">
+                    
+                    <!-- Chart 2: Predicted -->
+                    <div class="mb-8">
+                        <h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase tracking-wider text-center">Ce que l'IA a prédit</h3>
+                        <div class="h-44 w-full relative">
+                            <canvas id="chartPred"></canvas>
+                        </div>
+                    </div>
+
+                    <hr class="border-gray-100 mb-8">
+
+                    <!-- Chart 3: Entity Details (Hidden by Default) -->
+                    <div id="entity-details" class="transition-opacity duration-300 hidden">
+                        <h3 class="text-sm font-semibold text-indigo-700 mb-1 uppercase tracking-wider text-center" id="entity-details-title">Détail des probabilités</h3>
+                        <p class="text-xs text-gray-400 text-center mb-4 italic">Cliquez sur une ligne du tableau pour révéler les scores exacts.</p>
+                        <div class="h-32 w-full relative">
+                            <canvas id="chartEntity"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script>
+        function showSection(sectionId) {
+            document.getElementById('section-table').style.display = (sectionId === 'table') ? 'block' : 'none';
+            document.getElementById('section-dataviz').style.display = (sectionId === 'dataviz') ? 'block' : 'none';
+        }
+    </script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

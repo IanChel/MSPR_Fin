@@ -1,0 +1,244 @@
+{
+    "summary": {
+        "region_name": "Nouvelle-Aquitaine",
+        "predicted_winner": "MACRON",
+        "real_winner": "MACRON",
+        "model_accuracy": 83.1,
+        "dept_accuracy": 91.7,
+        "target_accuracy": "80%+",
+        "total_records": "127260",
+        "noise_applied": "N/A",
+        "label_flip": "N/A"
+    },
+    "political_real": [
+        {
+            "party": "MACRON",
+            "count": 11,
+            "color": "#0055A4"
+        },
+        {
+            "party": "LE PEN",
+            "count": 1,
+            "color": "#000000"
+        }
+    ],
+    "political_predicted": [
+        {
+            "party": "MACRON",
+            "count": 12,
+            "color": "#176Bc6"
+        },
+        {
+            "party": "LE PEN",
+            "count": 0,
+            "color": "#333333"
+        }
+    ],
+    "levels": {
+        "region": [
+            {
+                "entity": "NOUVELLE AQUITAINE",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "76%",
+                "proba_macron": 88.58194947242737,
+                "proba_lepen": 11.41805499792099
+            }
+        ],
+        "departement": [
+            {
+                "entity": "CHARENTE",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "81%",
+                "proba_macron": 86.58822774887085,
+                "proba_lepen": 13.411769270896912
+            },
+            {
+                "entity": "CHARENTE MARITIME",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "76%",
+                "proba_macron": 85.06932258605957,
+                "proba_lepen": 14.930671453475952
+            },
+            {
+                "entity": "CORREZE",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "77%",
+                "proba_macron": 89.75058794021606,
+                "proba_lepen": 10.249416530132294
+            },
+            {
+                "entity": "CREUSE",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "78%",
+                "proba_macron": 89.56425189971924,
+                "proba_lepen": 10.435746610164642
+            },
+            {
+                "entity": "DEUX SEVRES",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "72%",
+                "proba_macron": 92.97360181808472,
+                "proba_lepen": 7.026395946741104
+            },
+            {
+                "entity": "DORDOGNE",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "72%",
+                "proba_macron": 91.03389978408813,
+                "proba_lepen": 8.966100960969925
+            },
+            {
+                "entity": "GIRONDE",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "74%",
+                "proba_macron": 91.18314385414124,
+                "proba_lepen": 8.816855400800705
+            },
+            {
+                "entity": "HAUTE VIENNE",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "76%",
+                "proba_macron": 89.69104290008545,
+                "proba_lepen": 10.308961570262909
+            },
+            {
+                "entity": "LANDES",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "78%",
+                "proba_macron": 88.14801573753357,
+                "proba_lepen": 11.851983517408371
+            },
+            {
+                "entity": "LOT ET GARONNE",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "LE PEN",
+                "real_cand": "LE PEN",
+                "is_correct": false,
+                "conf": "77%",
+                "proba_macron": 88.95041942596436,
+                "proba_lepen": 11.049579828977585
+            },
+            {
+                "entity": "PYRENEES ATLANTIQUES",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "77%",
+                "proba_macron": 89.51807022094727,
+                "proba_lepen": 10.481934994459152
+            },
+            {
+                "entity": "VIENNE",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "74%",
+                "proba_macron": 87.0119571685791,
+                "proba_lepen": 12.988045811653137
+            }
+        ],
+        "canton": [
+            {
+                "entity": "NEUVIC",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "85%",
+                "proba_macron": 99.81059432029724,
+                "proba_lepen": 0.18941124435514212
+            },
+            {
+                "entity": "LA ROCHELLE 1",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "50%",
+                "proba_macron": 51.48932933807373,
+                "proba_lepen": 48.51067066192627
+            },
+            {
+                "entity": "SURGERES",
+                "predicted": "LE PEN",
+                "pred_cand": "LE PEN",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": false,
+                "conf": "52%",
+                "proba_macron": 47.81167507171631,
+                "proba_lepen": 52.18832492828369
+            },
+            {
+                "entity": "PESSAC 1",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "76%",
+                "proba_macron": 99.28548336029053,
+                "proba_lepen": 0.7145127281546593
+            },
+            {
+                "entity": "SAINT VAURY",
+                "predicted": "MACRON",
+                "pred_cand": "MACRON",
+                "real": "MACRON",
+                "real_cand": "MACRON",
+                "is_correct": true,
+                "conf": "74%",
+                "proba_macron": 84.55647230148315,
+                "proba_lepen": 15.443521738052368
+            }
+        ],
+        "commune": []
+    }
+}
